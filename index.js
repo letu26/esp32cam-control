@@ -33,7 +33,7 @@ app.post("/send", upload.single("image"), async (req, res) => {
   try {
     await transporter.sendMail({
       from: `"ESP32-CAM" <${process.env.EMAIL_USER}>`,
-      to: "tranloi121110@gmail.com",
+      to: "quynhthom2003xxx@gmail.com",
       subject: "ESP32-CAM: Cảnh báo từ thiết bị",
       html: `
         <p><strong>Thông báo:</strong></p>
